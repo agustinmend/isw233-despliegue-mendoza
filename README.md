@@ -13,3 +13,5 @@
 
 ## Docker
 -El COPY en el dockerfile copia los elementos de mi maquina local a el contenedor, en este caso al usar el . esta diciendo q copie todo los elementos que estan en la misma altura del dockerfile y los pegue en una carpeta /site/ dentro del contenedor, si tuviera un .pem en el directorio al no haber nada q me limite yo pienso que igual lo copiaria al contenedor lo cual no seria muy bueno q digamos, en el caso de los puertos a lo q yo tengo entendido el EXPOSE en Dockerfile es mas como documentacion no es que lo exponga por ende se seguiria escuchando en el 8000
+
+-Al ejecutar el docker run y despues docker ps este no esta vivo, en los logs dice No module named flask, despues de un error que tuve con el dockerfile ahora si esta vivo
