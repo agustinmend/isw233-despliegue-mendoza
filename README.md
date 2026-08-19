@@ -4,4 +4,5 @@
 -elaboracion de css
 -correccion de etiquetas html
 ## Levantamiento del servicor sin docker
--En primera no corrio sospecho del debuger active que me imprime la consola
+-En primera no corrio sospecho del debuger active que me imprime la consola,
+-Ahora funciona en mi maquina pero no el servidor
